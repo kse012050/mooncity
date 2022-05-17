@@ -1,4 +1,5 @@
 /* 인트로 */
+/* 메뉴 가운데 정렬 */
 .introArea{position: relative; display: flex; height: 100vh; color: white; text-align: center;}
 .introArea h1{position: absolute; z-index: 10; left: 50%; top: 8vh; transform: translateX(-50%);}
 .introArea section{height: 100%; flex: 1; display: flex; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover;}
@@ -21,3 +22,17 @@
 .introArea section:nth-of-type(1) > div a span{background-color: #e9dabc;}
 .introArea section:nth-of-type(2) > div a{background-color: #c1a07b;}
 .introArea section:nth-of-type(2) > div a span{background-color: white;}
+
+
+/* 메인 */
+/* 메인 슬라이더*/
+/* 높이가 다를 땐 어떻게 하지? */
+.mainArea .sliderArea{height: 100vh;}
+.mainArea .sliderArea ul{height: 100%;}
+.mainArea .sliderArea ul li{height: 100%; padding-top: 29.62vh; box-sizing: border-box; /*  display: flex; flex-direction: column; justify-content: center; align-items: center;  */background: url('../images/main/mainSliderImg01.png') no-repeat center / cover; color: white; text-align: center;}
+.mainArea .sliderArea ul li h3{font-size: 90px; font-weight: 500; line-height: 100px; max-width: 850px; margin: 0 auto 30px;}
+.mainArea .sliderArea ul li p{font-size: 30px; font-weight: 500; margin-bottom: 12vh;}
+.mainArea .sliderArea ul li mark{display: inline-block; width: 220px; line-height: 65px; font-size: 35px; font-weight: 500; color: #e9dabc; background-color: #255650; text-align: center;}
+.mainArea .swiper-horizontal>.swiper-pagination-bullets{bottom: 18.98vh;}
+.mainArea .swiper-horizontal>.swiper-pagination-bullets span{width: 13px; height: 13px; background-color: white; opacity: 0.6; border-radius: 100px;}
+.mainArea .swiper-horizontal>.swiper-pagination-bullets span.swiper-pagination-bullet-active{width: 35px; opacity: 1;}
