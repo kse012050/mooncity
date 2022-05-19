@@ -1,5 +1,4 @@
 /* 인트로 */
-/* 메뉴 가운데 정렬 */
 .introArea{position: relative; display: flex; height: 100vh; color: white; text-align: center;}
 .introArea h1{position: absolute; z-index: 10; left: 50%; top: 8vh; transform: translateX(-50%);}
 .introArea section{height: 100%; flex: 1; display: flex; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover;}
@@ -25,8 +24,10 @@
 
 
 /* 메인 */
+/* 메인 공통 */
+.mainArea > div h2{font-size: 40px; font-weight: 400; text-align: center; margin-bottom: 80px;}
 /* 메인 슬라이더*/
-.mainArea section{margin-bottom: 145px;}
+.mainArea section ,.mainArea > div > p{margin-bottom: 145px;}
 /* 높이가 다를 땐 어떻게 하지? */
 .mainArea .sliderArea{height: 100vh;}
 .mainArea .sliderArea ul{height: 100%;}
@@ -38,8 +39,9 @@
 .mainArea .swiper-horizontal>.swiper-pagination-bullets span{width: 13px; height: 13px; background-color: white; opacity: 0.6; border-radius: 100px;}
 .mainArea .swiper-horizontal>.swiper-pagination-bullets span.swiper-pagination-bullet-active{width: 35px; opacity: 1;}
 
-.mainArea > div .storeArea h2{padding-top: 70px; background: url('../images/common/logo_color.png') no-repeat center top / 70px; position: relative; margin-bottom: 80px;}
-.mainArea > div .storeArea h2 span{display: block; width: 205px; font-size: 40px; font-weight: 400; text-align: center; background-color: white; margin: 0 auto;}
+/* 메인 매장안내 */
+.mainArea > div .storeArea h2{padding-top: 70px; background: url('../images/common/logo_color.png') no-repeat center top / 70px; position: relative;}
+.mainArea > div .storeArea h2 span{display: block; width: 205px; background-color: white; margin: 0 auto;}
 .mainArea > div .storeArea h2 span::before{content: ''; position: absolute; left: 0; bottom: 22px; width: 100%; height: 1px; background-color: #e5e5e5; z-index: -1;}
 .mainArea > div .storeArea ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .mainArea > div .storeArea ul li{width: 24%; border-radius: 20px; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); overflow: hidden; position: relative;}
@@ -52,3 +54,27 @@
 .mainArea > div .storeArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #255650; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.5s opacity;}
 .mainArea > div .storeArea ul li a span{width: 85%; font-size: 30px; line-height: 65px; text-align: center; background-color: white; border-radius: 1000px; }
 .mainArea > div .storeArea ul li:hover a{opacity: 1;}
+
+/* 메인 공지사항 */
+.mainArea > div .noticeArea h2{position: relative;}
+.mainArea > div .noticeArea h2::before{content: 'NOTICE'; display: block; font-size: 20px; font-weight: 700; color: #255650; margin-bottom: 80px;}
+.mainArea > div .noticeArea h2::after{content: 'MOONCITY'; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); font-size: 90px; font-weight: 700; color: rgba(244, 218, 188, 0.3); z-index: -1;}
+.mainArea > div .noticeArea ul{border-top: 1px solid #e9dabc; margin-bottom: 80px;}
+.mainArea > div .noticeArea ul li{border-bottom: 1px solid #e5e5e5;}
+.mainArea > div .noticeArea ul li a{display: flex; justify-content: space-between; padding: 45px 3.47%; font-size: 25px; font-weight: 500; color: #222222;}
+.mainArea > div .noticeArea ul li a p{width: 50%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mainArea > div .noticeArea ul li a time{font-family: 'Pretendard';}
+.mainArea > div .noticeArea > a{display: block; margin: 0 auto; width: 300px; font-size: 35px; line-height: 65px; font-weight: 700; color: #e9dabc; text-align: center; border-radius: 1000px; background-color: #255650;}
+
+/* 메인 패럴렉스*/
+.mainArea > div > p{background-color: lightblue; font-size: 264.96px; font-size: 13.8vw; line-height: 0.65; font-weight: 700; color: transparent; background: url('../images/main/titleBG.png') no-repeat center / cover fixed; -webkit-background-clip: text;}
+
+/* 메인 종합안내센터 */
+.mainArea > div .synthesisArea{background: #255650 url('../images/main/logo_BG.png') no-repeat left center; background-size: auto 90%; padding: 50px 0;}
+.mainArea > div .synthesisArea h2{color: #e9dabc; position: relative;}
+.mainArea > div .synthesisArea h2::after{content: 'MOONCITY'; position: absolute; left: 50%; bottom: -25px; transform: translateX(-50%); font-size: 20px; color: #5e8883;}
+.mainArea > div .synthesisArea ul{display: flex; justify-content: center;}
+.mainArea > div .synthesisArea ul li{flex-basis: 720px; font-size: 35px; line-height: 45px; font-weight: 500; color: white; text-align: center; background-position: center top; background-repeat: no-repeat; padding-top: 150px;}
+.mainArea > div .synthesisArea ul li:nth-child(1){background-image: url('../images/main/generalInfo01.png'); font-family: 'Pretendard'; border-right: 1px solid #c6c3a9;}
+.mainArea > div .synthesisArea ul li:nth-child(2){background-image: url('../images/main/generalInfo02.png');}
+.mainArea > div .synthesisArea ul li:nth-child(2) a{display: block; font-family: 'Pretendard';}
