@@ -21,3 +21,16 @@ header > div button span:not(:last-child){margin-bottom: 5px;}
 header > div div{text-align: center;}
 header > div div a{width: 90px; line-height: 35px; font-size: 18px; color: #e9dabc; border-radius: 100px; background-color: #255650;}
 header > div div a:not(:last-child){margin-bottom: 25px;}
+
+/* 푸터 */
+footer > *{padding: 35px 0; border-top: 1px solid #e5e5e5;}
+footer > div:first-of-type div{display: flex;align-items: center;}
+footer > div:first-of-type div h2{width: 93px; margin-right: 110px;}
+footer > div:first-of-type div h2 img{width: 100%;}
+footer > div:first-of-type div ul{display: flex;}
+footer > div:first-of-type div ul li{font-size: 25px; font-weight: 500;}
+footer > div:first-of-type div ul li:first-child{color: #ed1b2f;}
+footer > div:first-of-type div ul li:not(:last-child){margin-right: 65px;}
+
+footer > div:last-of-type p{text-align: center; font-size: 30px; font-weight: 500;}
+
