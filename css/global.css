@@ -1,6 +1,9 @@
 /* widht 공통 */
 .width01{max-width: 1200px; margin: 0 auto;}
 
+/* 최상단 height */
+.topArea{height: 700px;}
+
 
 /* 해더 */
 header{position: fixed; left: 0; top: 0; width: 100%; display: flex; justify-content: center; border-bottom: 1px solid white; z-index: 100;}

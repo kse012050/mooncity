@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var swiper = new Swiper(".mySwiper", {
+    var mainSwiper = new Swiper(".mainArea .mySwiper", {
         pagination: {
           el: ".swiper-pagination",
         },

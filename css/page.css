@@ -29,12 +29,12 @@
 /* 메인 슬라이더*/
 .mainArea section ,.mainArea > div > p{margin-bottom: 100px;}
 /* 높이가 다를 땐 어떻게 하지? */
-.mainArea .sliderArea{height: 700px;}
-.mainArea .sliderArea ul{height: 100%;}
-.mainArea .sliderArea ul li{height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; /*  display: flex; flex-direction: column; justify-content: center; align-items: center;  */background: url('../images/main/mainSliderImg01.png') no-repeat center / cover; color: white; text-align: center;}
-.mainArea .sliderArea ul li h3{font-size: 40px; font-weight: 500; line-height: 100px; max-width: 850px; margin: 0 auto 30px;}
-.mainArea .sliderArea ul li p{font-size: 20px; font-weight: 500; margin-bottom: 45px;}
-.mainArea .sliderArea ul li mark{display: inline-block; width: 165px; line-height: 60px; font-size: 20px; font-weight: 500; color: #e9dabc; background-color: #255650; text-align: center;}
+/* .mainArea .topArea{height: 700px;} */
+.mainArea .topArea ul{height: 100%;}
+.mainArea .topArea ul li{height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; /*  display: flex; flex-direction: column; justify-content: center; align-items: center;  */background: url('../images/main/mainSliderImg01.png') no-repeat center / cover; color: white; text-align: center;}
+.mainArea .topArea ul li h3{font-size: 40px; font-weight: 500; line-height: 100px; max-width: 850px; margin: 0 auto 30px;}
+.mainArea .topArea ul li p{font-size: 20px; font-weight: 500; margin-bottom: 45px;}
+.mainArea .topArea ul li mark{display: inline-block; width: 165px; line-height: 60px; font-size: 20px; font-weight: 500; color: #e9dabc; background-color: #255650; text-align: center;}
 .mainArea .swiper-horizontal>.swiper-pagination-bullets{bottom: 70px;}
 .mainArea .swiper-horizontal>.swiper-pagination-bullets span{width: 10px; height: 10px; background-color: white; opacity: 0.6; border-radius: 100px;}
 .mainArea .swiper-horizontal>.swiper-pagination-bullets span.swiper-pagination-bullet-active{width: 35px; opacity: 1;}
