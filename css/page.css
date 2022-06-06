@@ -95,7 +95,7 @@
 .introduceArea .imgArea ul li:nth-child(4){background-image: url('../images/introduce/introduceImg04.png');}
 
 /* 소개 - 즐기다 */
-.enjoyArea p{margin-top: 25px;}
+.enjoyArea p{margin-bottom: 50px;}
 .enjoyArea div{display: flex; justify-content: space-between; align-items: center; position: relative;}
 .enjoyArea div::after{content: ''; position: absolute; left: 50%; top: 50%; width: 150px; border-top: 1px dashed #255650; transform: translate(-50% , -50%);}
 .enjoyArea div strong{width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; background-color: #255650; border-radius: 100%; font-size: 30px; font-weight: 300; text-align: center; color: white;}
