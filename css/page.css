@@ -24,57 +24,91 @@
 
 
 /* 메인 */
-/* 메인 공통 */
-.mainArea > div h2{font-size: 30px; font-weight: 400; text-align: center; margin-bottom: 80px;}
 /* 메인 슬라이더*/
-.mainArea section ,.mainArea > div > p{margin-bottom: 100px;}
-/* 높이가 다를 땐 어떻게 하지? */
-/* .mainArea .topArea{height: 700px;} */
-.mainArea .topArea ul{height: 100%;}
-.mainArea .topArea ul li{height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; /*  display: flex; flex-direction: column; justify-content: center; align-items: center;  */background: url('../images/main/mainSliderImg01.png') no-repeat center / cover; color: white; text-align: center;}
-.mainArea .topArea ul li h3{font-size: 40px; font-weight: 500; line-height: 100px; max-width: 850px; margin: 0 auto 30px;}
-.mainArea .topArea ul li p{font-size: 20px; font-weight: 500; margin-bottom: 45px;}
-.mainArea .topArea ul li mark{display: inline-block; width: 165px; line-height: 60px; font-size: 20px; font-weight: 500; color: #e9dabc; background-color: #255650; text-align: center;}
-.mainArea .swiper-horizontal>.swiper-pagination-bullets{bottom: 70px;}
-.mainArea .swiper-horizontal>.swiper-pagination-bullets span{width: 10px; height: 10px; background-color: white; opacity: 0.6; border-radius: 100px;}
-.mainArea .swiper-horizontal>.swiper-pagination-bullets span.swiper-pagination-bullet-active{width: 35px; opacity: 1;}
+.mainPage .sliderArea{height: 700px;}
+.mainPage .sliderArea ul{height: 100%;}
+.mainPage .sliderArea ul li{height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; /*  display: flex; flex-direction: column; justify-content: center; align-items: center;  */background: url('../images/main/mainSliderImg01.png') no-repeat center / cover; color: white; text-align: center;}
+.mainPage .sliderArea ul li mark{display: inline-block; width: 165px; line-height: 60px; font-size: 20px; font-weight: 500; color: #e9dabc; background-color: #255650; text-align: center; margin-top: 45px;}
+.mainPage .swiper-horizontal>.swiper-pagination-bullets{bottom: 70px;}
+.mainPage .swiper-horizontal>.swiper-pagination-bullets span{width: 10px; height: 10px; background-color: white; opacity: 0.6; border-radius: 100px;}
+.mainPage .swiper-horizontal>.swiper-pagination-bullets span.swiper-pagination-bullet-active{width: 35px; opacity: 1;}
 
 /* 메인 매장안내 */
-.mainArea > div .storeArea h2{padding-top: 90px; background: url('../images/common/logo_color.png') no-repeat center top / 70px; position: relative;}
-.mainArea > div .storeArea h2 span{display: block; width: 205px; background-color: white; margin: 0 auto;}
-.mainArea > div .storeArea h2 span::before{content: ''; position: absolute; left: 0; bottom: 22px; width: 100%; height: 1px; background-color: #e5e5e5; z-index: -1;}
-.mainArea > div .storeArea ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
-.mainArea > div .storeArea ul li{width: 24%; border-radius: 20px; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); overflow: hidden; position: relative;}
-.mainArea > div .storeArea ul li:not(:nth-child(-n + 4)){margin-top: 2%;}
-.mainArea > div .storeArea ul li .imgBox{height: 230px; background: url('../images/main/storeInfo.png') no-repeat center / cover; text-indent: -9999px;}
-.mainArea > div .storeArea ul li .textBox{padding: 30px;}
-.mainArea > div .storeArea ul li .textBox strong{display: block; font-size: 25px; font-weight: 500; margin-bottom: 10px;}
-.mainArea > div .storeArea ul li .textBox p{font-size: 16px; line-height: 25px;}
-.mainArea > div .storeArea ul li .floorsBox{padding: 15px 30px; font-size: 25px; border-top: 1px solid #e5e5e5;}
-.mainArea > div .storeArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #255650; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.5s opacity;}
-.mainArea > div .storeArea ul li a span{width: 65%; font-size: 20px; line-height: 55px; text-align: center; background-color: white; border-radius: 1000px; }
-.mainArea > div .storeArea ul li:hover a{opacity: 1;}
+.mainPage > div .storeArea h2{padding-top: 90px; background: url('../images/common/logo_color.png') no-repeat center top / 70px; position: relative;}
+.mainPage > div .storeArea h2 span{display: block; width: 205px; background-color: white; margin: 0 auto;}
+.mainPage > div .storeArea h2 span::before{content: ''; position: absolute; left: 0; bottom: 22px; width: 100%; height: 1px; background-color: #e5e5e5; z-index: -1;}
+.mainPage > div .storeArea ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.mainPage > div .storeArea ul li{width: 24%; border-radius: 20px; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); overflow: hidden; position: relative;}
+.mainPage > div .storeArea ul li:not(:nth-child(-n + 4)){margin-top: 2%;}
+.mainPage > div .storeArea ul li .imgBox{height: 230px; background: url('../images/main/storeInfo.png') no-repeat center / cover; text-indent: -9999px;}
+.mainPage > div .storeArea ul li .textBox{padding: 30px;}
+.mainPage > div .storeArea ul li .textBox strong{display: block; font-size: 25px; font-weight: 500; margin-bottom: 10px;}
+.mainPage > div .storeArea ul li .textBox p{font-size: 16px; line-height: 25px;}
+.mainPage > div .storeArea ul li .floorsBox{padding: 15px 30px; font-size: 25px; border-top: 1px solid #e5e5e5;}
+.mainPage > div .storeArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #255650; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.5s opacity;}
+.mainPage > div .storeArea ul li a span{width: 65%; font-size: 20px; line-height: 55px; text-align: center; background-color: white; border-radius: 1000px; }
+.mainPage > div .storeArea ul li:hover a{opacity: 1;}
 
 /* 메인 공지사항 */
-.mainArea > div .noticeArea h2{position: relative;}
-.mainArea > div .noticeArea h2::before{content: 'NOTICE'; display: block; font-size: 16px; font-weight: 700; color: #255650; margin-bottom: 70px;}
-.mainArea > div .noticeArea h2::after{content: 'MOONCITY'; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); font-size: 90px; font-weight: 700; color: rgba(244, 218, 188, 0.3); z-index: -1;}
-.mainArea > div .noticeArea ul{border-top: 1px solid #e9dabc; margin-bottom: 50px;}
-.mainArea > div .noticeArea ul li{border-bottom: 1px solid #e5e5e5;}
-.mainArea > div .noticeArea ul li a{display: flex; justify-content: space-between; padding: 30px 3%; font-size: 20px; font-weight: 500; color: #222222;}
-.mainArea > div .noticeArea ul li a p{width: 50%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-.mainArea > div .noticeArea ul li a time{font-family: 'Pretendard';}
-.mainArea > div .noticeArea > a{display: block; margin: 0 auto; width: 200px; font-size: 25px; line-height: 60px; font-weight: 700; color: #e9dabc; text-align: center; border-radius: 1000px; background-color: #255650;}
+.mainPage > div .noticeArea h2{position: relative;}
+.mainPage > div .noticeArea h2::before{content: 'NOTICE'; display: block; font-size: 16px; font-weight: 700; color: #255650; margin-bottom: 70px;}
+.mainPage > div .noticeArea h2::after{content: 'MOONCITY'; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); font-size: 90px; font-weight: 700; color: rgba(244, 218, 188, 0.3); z-index: -1;}
+.mainPage > div .noticeArea ul{border-top: 1px solid #e9dabc; margin-bottom: 50px;}
+.mainPage > div .noticeArea ul li{border-bottom: 1px solid #e5e5e5;}
+.mainPage > div .noticeArea ul li a{display: flex; justify-content: space-between; padding: 30px 3%; font-size: 20px; font-weight: 500; color: #222222;}
+.mainPage > div .noticeArea ul li a p{width: 50%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mainPage > div .noticeArea ul li a time{font-family: 'Pretendard';}
+.mainPage > div .noticeArea > a{display: block; margin: 0 auto; width: 200px; font-size: 25px; line-height: 60px; font-weight: 700; color: #e9dabc; text-align: center; border-radius: 1000px; background-color: #255650;}
 
 /* 메인 패럴렉스*/
-.mainArea > div > p{background-color: lightblue; font-size: 264.96px; font-size: 216.056px; font-weight: 700; color: transparent; background: url('../images/main/titleBG.png') no-repeat center / cover fixed; -webkit-background-clip: text;}
+.mainPage > div > p{background-color: lightblue; font-size: 264.96px; font-size: 216.056px; font-weight: 700; color: transparent; background: url('../images/main/titleBG.png') no-repeat center / cover fixed; -webkit-background-clip: text;}
 
 /* 메인 종합안내센터 */
-.mainArea > div .synthesisArea{background: #255650 url('../images/main/logo_BG.png') no-repeat left center; background-size: auto 80%; padding: 70px 0;}
-.mainArea > div .synthesisArea h2{color: #e9dabc; position: relative;}
-.mainArea > div .synthesisArea h2::after{content: 'MOONCITY'; position: absolute; left: 50%; bottom: -25px; transform: translateX(-50%); font-size: 20px; color: #5e8883;}
-.mainArea > div .synthesisArea ul{display: flex; justify-content: center;}
-.mainArea > div .synthesisArea ul li{flex-basis: 600px; font-size: 25px; line-height: 30px; font-weight: 500; color: white; text-align: center; background-position: center top; background-repeat: no-repeat; padding-top: 100px;}
-.mainArea > div .synthesisArea ul li:nth-child(1){background-image: url('../images/main/generalInfo01.png'); font-family: 'Pretendard'; border-right: 1px solid #c6c3a9;}
-.mainArea > div .synthesisArea ul li:nth-child(2){background-image: url('../images/main/generalInfo02.png');}
-.mainArea > div .synthesisArea ul li:nth-child(2) a{display: block; font-family: 'Pretendard';}
+.mainPage > div .synthesisArea{background: #255650 url('../images/main/logo_BG.png') no-repeat left center; background-size: auto 80%; padding: 70px 0;}
+.mainPage > div .synthesisArea h2{color: #e9dabc; position: relative;}
+.mainPage > div .synthesisArea h2::after{content: 'MOONCITY'; position: absolute; left: 50%; bottom: -25px; transform: translateX(-50%); font-size: 20px; color: #5e8883;}
+.mainPage > div .synthesisArea ul{display: flex; justify-content: center;}
+.mainPage > div .synthesisArea ul li{flex-basis: 600px; font-size: 25px; line-height: 30px; font-weight: 500; color: white; text-align: center; background-position: center top; background-repeat: no-repeat; padding-top: 100px;}
+.mainPage > div .synthesisArea ul li:nth-child(1){background-image: url('../images/main/generalInfo01.png'); font-family: 'Pretendard'; border-right: 1px solid #c6c3a9;}
+.mainPage > div .synthesisArea ul li:nth-child(2){background-image: url('../images/main/generalInfo02.png');}
+.mainPage > div .synthesisArea ul li:nth-child(2) a{display: block; font-family: 'Pretendard';}
+
+
+
+/* 소개 */
+/* 소개 공통 */
+.introduceArea mark{color: #255650;}
+.introduceArea .bigTitle{font-size: 35px; font-weight: 400; text-align: center;}
+.introduceArea .bigTitle ~ p{font-size: 16px; line-height: 20px; text-align: center; margin-top: 25px;}
+
+/* 소개 - 이미지 */
+.introduceArea .imgArea ul{display: flex; height: 585px; flex-direction: column; flex-wrap: wrap; align-content: space-between;}
+.introduceArea .imgArea ul li{background-position: center; background-size: cover; text-indent: -9999px;}
+.introduceArea .imgArea ul li:first-child{margin-bottom: 1.5%;}
+.introduceArea .imgArea ul li:nth-child(-n + 2){flex: 1;}
+.introduceArea .imgArea ul li:not(:nth-child(-n + 2)){height: 100%;}
+.introduceArea .imgArea ul li:not(:nth-child(3)){width: 24.25%;}
+.introduceArea .imgArea ul li:nth-child(3){width: 48.5%;}
+.introduceArea .imgArea ul li:nth-child(1){background-image: url('../images/introduce/introduceImg01.png');}
+.introduceArea .imgArea ul li:nth-child(2){background-image: url('../images/introduce/introduceImg02.png');}
+.introduceArea .imgArea ul li:nth-child(3){background-image: url('../images/introduce/introduceImg03.png');}
+.introduceArea .imgArea ul li:nth-child(4){background-image: url('../images/introduce/introduceImg04.png');}
+
+/* 소개 - 즐기다 */
+.enjoyArea p{margin-top: 25px;}
+.enjoyArea div{display: flex; justify-content: space-between; align-items: center; position: relative;}
+.enjoyArea div::after{content: ''; position: absolute; left: 50%; top: 50%; width: 150px; border-top: 1px dashed #255650; transform: translate(-50% , -50%);}
+.enjoyArea div strong{width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; background-color: #255650; border-radius: 100%; font-size: 30px; font-weight: 300; text-align: center; color: white;}
+.enjoyArea div ul{width: 250px; position: relative;}
+.enjoyArea div ul::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 1px; background: linear-gradient(90deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,1) 50%, rgba(234,222,198,1) 100%);}
+.enjoyArea div ul li{font-size: 30px; font-weight: 300; padding: 30px; position: relative;}
+.enjoyArea div ul li::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: linear-gradient(90deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,1) 50%, rgba(234,222,198,1) 100%);}
+
+/* 소개 - 품질 */
+.qualityArea{padding: 100px 0; background: url('../images/introduce/introduceBG.png') center / cover; color: white;}
+.qualityArea h2{margin-bottom: 25px;}
+.qualityArea div span{display: block; border-radius: 100%; background-color: white; margin: 0 auto;}
+.qualityArea div span:not(:last-child){margin-bottom: 5px;}
+.qualityArea div span:nth-child(1){width: 7px; height: 7px;}
+.qualityArea div span:nth-child(2){width: 5px; height: 5px;}
+.qualityArea div span:nth-child(3){width: 3px; height: 3px;}
