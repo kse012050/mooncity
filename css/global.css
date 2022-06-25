@@ -59,6 +59,22 @@ footer > div:first-of-type div ul{display: flex;}
 footer > div:first-of-type div ul li{font-size: 20px; font-weight: 500;}
 footer > div:first-of-type div ul li:first-child{color: #ed1b2f;}
 footer > div:first-of-type div ul li:not(:last-child){margin-right: 30px;}
-
+footer > div:nth-of-type(2) > div::after{content: ''; display: block; clear: both;}
+footer > div:nth-of-type(2) > div{height: 102px;}
+footer > div:nth-of-type(2) > div > *{float: left; height: 100%;}
+footer > div:nth-of-type(2) > div > div:nth-child(1){width: calc((100% / 3) * 2.5);}
+footer > div:nth-of-type(2) > div > div:nth-child(1){display: flex; flex-wrap: wrap; flex-direction: column;}
+footer > div:nth-of-type(2) > div > div:nth-child(1) > *{display: flex; font-size: 18px; font-weight: 500;}
+footer > div:nth-of-type(2) > div > div:nth-child(1) > *:not(:nth-child(4n)){margin-bottom: 10px;}
+footer > div:nth-of-type(2) > div > div:nth-child(1) dl{display: flex;}
+footer > div:nth-of-type(2) > div > div:nth-child(1) dl dt::after{content: ':'; display: inline-block; margin: 0 5px;}
+footer > div:nth-of-type(2) > div > div:nth-child(2){width: calc((100% / 3) * 0.5); height: 100%; display: flex; flex-direction: column;}
+footer > div:nth-of-type(2) > div > div:nth-child(2) ul{display: flex; justify-content: flex-end; align-items: center; flex: 1; }
+footer > div:nth-of-type(2) > div > div:nth-child(2) ul li:not(:last-child){margin-right: 10px;}
+footer > div:nth-of-type(2) > div > div:nth-child(2) ul li a{display: block; width: 35px; height: 35px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+footer > div:nth-of-type(2) > div > div:nth-child(2) ul li:nth-child(1) a{background-image: url('../images/common/SNSIcon01.png');}
+footer > div:nth-of-type(2) > div > div:nth-child(2) ul li:nth-child(2) a{background-image: url('../images/common/SNSIcon02.png');}
+footer > div:nth-of-type(2) > div > div:nth-child(2) ul li:nth-child(3) a{background-image: url('../images/common/SNSIcon03.png');}
+footer > div:nth-of-type(2) > div > div:nth-child(2) select{margin-left: auto; font-size: 20px; width: 200px; height: 40px; padding: 5px 10px;}
 footer > div:last-of-type p{text-align: center; font-size: 16px; font-weight: 500;}
 
