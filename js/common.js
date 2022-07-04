@@ -4,4 +4,8 @@ $(document).ready(function(){
           el: ".swiper-pagination",
         },
     });
+
+    var commercialSwiper = new Swiper(".commercialArea .sliderArea .swiper", {
+      slidesPerView: 4,
+    });
 });

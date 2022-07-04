@@ -149,7 +149,38 @@
 .experienceArea .enjoyArea ul li:nth-child(3) p{background-image: url('../images/experience/enjoyImg03.png');}
 .experienceArea .enjoyArea ul li:nth-child(4) p{background-image: url('../images/experience/enjoyImg04.png');}
 
-.experienceArea > p{font-size: 1960%; margin-bottom: 100px; font-weight: 500; color: #255650;}
+.experienceArea > div > p{font-size: 1960%; margin-bottom: 100px; font-weight: 500; color: #255650;}
 
 .experienceArea .cafeArea{color: white;}
 .experienceArea .cafeArea{padding: 150px 0; text-align: left; background: url('../images/experience/cafeBG.png') no-repeat center / cover;}
+
+
+/* 상업센터 */
+.commercialArea{}
+.commercialArea .tabArea{}
+.commercialArea .tabArea .tabBtn{display: flex; justify-content: center; gap: 20px; margin-bottom: 100px;}
+.commercialArea .tabArea .tabBtn li a{padding: 15px 20px; font-size: 20px; font-weight: 500; color: #6f6f6f; border: 1px solid #6f6f6f;}
+.commercialArea .tabArea .tabBtn li.active a{color: #e9dabc; border-color: #255650; background-color: #255650;}
+.commercialArea .tabArea .tabCantents{}
+.commercialArea .tabArea .tabCantents li:not(:last-child){margin-bottom: 80px;}
+.commercialArea .tabArea .tabCantents li img{width: 100%; margin-bottom: 80px;}
+.commercialArea .tabArea .tabCantents li figcaption{display: flex;}
+.commercialArea .tabArea .tabCantents li figcaption strong{font-size: 30px; white-space: nowrap; margin-right: 16.25%;}
+.commercialArea .tabArea .tabCantents li figcaption strong mark{display: inline-block; font-size: 20px; color: #255650; margin-left: 25px;}
+.commercialArea .tabArea .tabCantents li figcaption div{}
+.commercialArea .tabArea .tabCantents li figcaption div::after{content: ''; display: block; clear: both;}
+.commercialArea .tabArea .tabCantents li figcaption div p{font-size: 20px; line-height: 25px;}
+.commercialArea .tabArea .tabCantents li figcaption div p:first-of-type{margin-bottom: 50px;}
+.commercialArea .tabArea .tabCantents li figcaption div p:nth-of-type(2){margin-bottom: 25px;}
+.commercialArea .tabArea .tabCantents li figcaption div a{float: left; width: 155px; line-height: 45px; font-size: 18px; text-align: center; border: 1px solid #255650;}
+.commercialArea .tabArea .tabCantents li figcaption div a:nth-of-type(1){color: #255650; margin-right: 20px;}
+.commercialArea .tabArea .tabCantents li figcaption div a:nth-of-type(2){color: #e9dabc; background-color: #255650;}
+
+.commercialArea .sliderArea .swiper-slide{height: 800px; padding: 150px 4%; box-sizing: border-box; display: flex; flex-direction: column; color:white;}
+.commercialArea .sliderArea .swiper-slide:nth-child(1){background: url('../images/commercial/sliderImg01.png') no-repeat center / cover;}
+.commercialArea .sliderArea .swiper-slide:nth-child(2){background: url('../images/commercial/sliderImg02.png') no-repeat center / cover;}
+.commercialArea .sliderArea .swiper-slide:nth-child(3){background: url('../images/commercial/sliderImg03.png') no-repeat center / cover;}
+.commercialArea .sliderArea .swiper-slide:nth-child(4){background: url('../images/commercial/sliderImg04.png') no-repeat center / cover;}
+.commercialArea .sliderArea .swiper-slide h3{font-size: 30px; margin-bottom: 30px;}
+.commercialArea .sliderArea .swiper-slide p{font-size: 20px; line-height: 25px;}
+.commercialArea .sliderArea .swiper-slide a{margin-top: auto; font-size: 18px; color: #e9dabc; text-align: center; width: 190px; line-height: 45px; border-radius:100em; background-color: #255650;}
