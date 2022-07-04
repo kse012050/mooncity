@@ -95,20 +95,61 @@
 .introduceArea .imgArea ul li:nth-child(4){background-image: url('../images/introduce/introduceImg04.png');}
 
 /* 소개 - 즐기다 */
-.enjoyArea p{margin-bottom: 50px;}
-.enjoyArea div{display: flex; justify-content: space-between; align-items: center; position: relative;}
-.enjoyArea div::after{content: ''; position: absolute; left: 50%; top: 50%; width: 150px; border-top: 1px dashed #255650; transform: translate(-50% , -50%);}
-.enjoyArea div strong{width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; background-color: #255650; border-radius: 100%; font-size: 30px; font-weight: 300; text-align: center; color: white;}
-.enjoyArea div ul{width: 250px; position: relative;}
-.enjoyArea div ul::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 1px; background: linear-gradient(90deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,1) 50%, rgba(234,222,198,1) 100%);}
-.enjoyArea div ul li{font-size: 30px; font-weight: 300; padding: 30px; position: relative;}
-.enjoyArea div ul li::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: linear-gradient(90deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,1) 50%, rgba(234,222,198,1) 100%);}
+.introduceArea .enjoyArea p{margin-bottom: 50px;}
+.introduceArea .enjoyArea div{display: flex; justify-content: space-between; align-items: center; position: relative;}
+.introduceArea .enjoyArea div::after{content: ''; position: absolute; left: 50%; top: 50%; width: 150px; border-top: 1px dashed #255650; transform: translate(-50% , -50%);}
+.introduceArea .enjoyArea div strong{width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; background-color: #255650; border-radius: 100%; font-size: 30px; font-weight: 300; text-align: center; color: white;}
+.introduceArea .enjoyArea div ul{width: 250px; position: relative;}
+.introduceArea .enjoyArea div ul::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 1px; background: linear-gradient(90deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,1) 50%, rgba(234,222,198,1) 100%);}
+.introduceArea .enjoyArea div ul li{font-size: 30px; font-weight: 300; padding: 30px; position: relative;}
+.introduceArea .enjoyArea div ul li::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: linear-gradient(90deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,1) 50%, rgba(234,222,198,1) 100%);}
 
 /* 소개 - 품질 */
-.qualityArea{padding: 100px 0; background: url('../images/introduce/introduceBG.png') center / cover; color: white;}
-.qualityArea h2{margin-bottom: 25px;}
-.qualityArea div span{display: block; border-radius: 100%; background-color: white; margin: 0 auto;}
-.qualityArea div span:not(:last-child){margin-bottom: 5px;}
-.qualityArea div span:nth-child(1){width: 7px; height: 7px;}
-.qualityArea div span:nth-child(2){width: 5px; height: 5px;}
-.qualityArea div span:nth-child(3){width: 3px; height: 3px;}
+.introduceArea .qualityArea{padding: 100px 0; background: url('../images/introduce/introduceBG.png') center / cover; color: white;}
+.introduceArea .qualityArea h2{margin-bottom: 25px;}
+.introduceArea .qualityArea div span{display: block; border-radius: 100%; background-color: white; margin: 0 auto;}
+.introduceArea .qualityArea div span:not(:last-child){margin-bottom: 5px;}
+.introduceArea .qualityArea div span:nth-child(1){width: 7px; height: 7px;}
+.introduceArea .qualityArea div span:nth-child(2){width: 5px; height: 5px;}
+.introduceArea .qualityArea div span:nth-child(3){width: 3px; height: 3px;}
+
+
+/* 경험 */
+.experienceArea .expArea{padding: 150px 0; color: white;}
+/* 배경 */
+.experienceArea .expArea , .experienceArea .expArea > div ul li div dl{background-color: #255650;}
+.experienceArea .expArea > div > *:not(ul){padding: 0 50px; box-sizing: border-box; text-align: left;}
+.experienceArea .expArea > div > h2.leftTitle{font-size: 30px; margin-bottom: 20px;}
+.experienceArea .expArea > div > p{font-size: 20px; margin-bottom: 100px;}
+.experienceArea .expArea > div ul{}
+.experienceArea .expArea > div ul li{display: flex; justify-content: space-between;}
+.experienceArea .expArea > div ul li > *{width: calc((100% - 50px) / 2); box-sizing: border-box;}
+.experienceArea .expArea > div ul li div{ padding: 535px 230px 0 0; background-repeat: no-repeat; background-position: center; background-size: cover; }
+.experienceArea .expArea > div ul li:nth-child(1) div{background-image: url('../images/experience/experienceImg01.png')}
+.experienceArea .expArea > div ul li:nth-child(2) div{background-image: url('../images/experience/experienceImg02.png')}
+.experienceArea .expArea > div ul li:nth-child(3) div{background-image: url('../images/experience/experienceImg03.png')}
+.experienceArea .expArea > div ul li div dl{ padding: 20px 30px;}
+.experienceArea .expArea > div ul li div dl dt{font-size: 25px; margin-bottom: 10px;}
+.experienceArea .expArea > div ul li div dl dd{display: inline-block; font-size: 16px; padding: 10px 15px; border: 1px solid white;}
+.experienceArea .expArea > div ul li p{font-size: 16px; line-height: 20px;}
+.experienceArea .expArea > div ul li:nth-child(2n + 1) p{padding: 100px 100px 100px 0;}
+.experienceArea .expArea > div ul li:nth-child(2n) p{padding: 200px 100px 200px 0;}
+.experienceArea .expArea > div ul li:nth-child(2n){position: relative;}
+.experienceArea .expArea > div ul li:nth-child(2n) div{position: absolute; right: 0; bottom: -20px;}
+
+.experienceArea .enjoyArea{background: linear-gradient(0deg, rgba(37,86,80,1) 0%, rgba(37,86,80,1) 50%, rgba(234,222,198,0) 50%, rgba(234,222,198,0) 100%); padding-bottom: 100px; color: white;}
+.experienceArea .enjoyArea h2{color: #255650; font-weight: 700;}
+.experienceArea .enjoyArea h2 small{display: block; font-size: 20px; margin-bottom: 20px;}
+.experienceArea .enjoyArea ul{display: flex; gap: 20px;}
+.experienceArea .enjoyArea ul li{flex: 1; }
+.experienceArea .enjoyArea ul li:nth-child(2n){padding-top: 100px;}
+.experienceArea .enjoyArea ul li p{font-size: 25px; font-weight: 300; text-align: center; background-repeat: no-repeat; background-position: center top; background-size: contain; padding-top: 175%;}
+.experienceArea .enjoyArea ul li:nth-child(1) p{background-image: url('../images/experience/enjoyImg01.png');}
+.experienceArea .enjoyArea ul li:nth-child(2) p{background-image: url('../images/experience/enjoyImg02.png');}
+.experienceArea .enjoyArea ul li:nth-child(3) p{background-image: url('../images/experience/enjoyImg03.png');}
+.experienceArea .enjoyArea ul li:nth-child(4) p{background-image: url('../images/experience/enjoyImg04.png');}
+
+.experienceArea > p{font-size: 1960%; margin-bottom: 100px; font-weight: 500; color: #255650;}
+
+.experienceArea .cafeArea{color: white;}
+.experienceArea .cafeArea{padding: 150px 0; text-align: left; background: url('../images/experience/cafeBG.png') no-repeat center / cover;}

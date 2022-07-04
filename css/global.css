@@ -17,13 +17,14 @@ h2[title="hiddenTitle"]{height: 0.001px; overflow: hidden;}
 /* 최상단 width , height , background*/
 .subPage .topArea > div{height: 700px; display: flex; flex-direction: column; justify-content: center; align-items: center; /* background-repeat: no-repeat; */ background-size: cover; background-position: center; text-align: center;}
 .subPage .introduceArea .topArea > div{background-image: url('../images/introduce/introduceTop.png');}
+.subPage .experienceArea .topArea > div{background-image: url('../images/experience/experienceTop.png');}
 
 
 
 /* 컨텐츠 타이틀 */
 /* 메인 공통 */
 :is(.mainPage , .subPage) > div section:not(.topArea) h2:not([title="hiddenTitle"]):not([class]){font-size: 30px; font-weight: 400; text-align: center; margin-bottom: 80px;}
-
+.leftTitle{font-size: 30px; margin-bottom: 20px;}
 /* 컨텐츠 사이 간격 */
 :is(.mainPage ,.subPage) section:not(:last-of-type),
 .mainPage > div > p{margin-bottom: 100px;}
@@ -49,6 +50,9 @@ header > div button span:not(:last-child){margin-bottom: 5px;}
 header > div div{text-align: center;}
 header > div div a{width: 80px; line-height: 35px; font-size: 16px; color: #e9dabc; border-radius: 100px; background-color: #255650;}
 header > div div a:not(:last-child){margin-bottom: 10px;}
+
+/* 상단부분 */
+.topArea{}
 
 /* 푸터 */
 footer > *{padding: 25px 0; border-top: 1px solid #e5e5e5;}
