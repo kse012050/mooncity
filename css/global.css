@@ -20,7 +20,7 @@ h2[title="hiddenTitle"]{height: 0.001px; overflow: hidden;}
 .subPage.introduceArea .topArea div{background-image: url('../images/introduce/introduceTop.png');}
 .subPage.experienceArea .topArea div{background-image: url('../images/experience/experienceTop.png');}
 .subPage.commercialArea .topArea div{background-image: url('../images/commercial/commercialTop.png');}
-.subPage.franchiseArea .topArea div{background-image: url('../images/franchise/franchiseTop.png');}
+.subPage:is(.franchiseArea , .detailArea) .topArea div{background-image: url('../images/franchise/franchiseTop.png');}
 
 .subPage .topArea .pagerArea{display: flex; justify-content: center; border-bottom: 1px solid #e6e6e6; font-size: 20px; line-height: 85px; color: #6f6f6f; text-align: center;}
 .subPage .topArea .pagerArea li{flex: 1; max-width: 600px;}
@@ -32,12 +32,14 @@ h2[title="hiddenTitle"]{height: 0.001px; overflow: hidden;}
 
 /* 컨텐츠 타이틀 */
 /* 메인 공통 */
-:is(.mainPage , .subPage) > div section:not(.topArea) h2:not([title="hiddenTitle"]):not([class]){font-size: 30px; font-weight: 400; text-align: center; margin-bottom: 80px;}
+:is(.mainPage , .subPage) > div > section:not(.topArea) h2:not([title="hiddenTitle"]):not([class]){font-size: 30px; font-weight: 400; text-align: center; margin-bottom: 80px;}
 .leftTitle{font-size: 30px; margin-bottom: 20px;}
 /* 컨텐츠 사이 간격 */
 :is(.mainPage ,.subPage) > div > *:not(:last-child),
 .mainPage > div > p{margin-bottom: 100px;}
 
+/* 버튼 */
+.btn01{width: 150px; line-height: 50px; font-size: 20px; color: white; text-align: center; background-color: #255650;}
 
 
 /* 해더 */

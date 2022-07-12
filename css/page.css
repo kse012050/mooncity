@@ -189,4 +189,4 @@
 /* 프렌차이즈 */
 .franchiseArea .storeArea{margin-bottom: 100px;}
 .franchiseArea .storeArea ul{margin-bottom: 50px;}
-.franchiseArea .storeArea > a{display: block; width: 150px; line-height: 50px; font-size: 20px; color: white; text-align: center; margin: 0 auto; background-color: #255650;}
+.franchiseArea .storeArea > a{display: block; margin: 0 auto;}
