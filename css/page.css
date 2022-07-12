@@ -35,19 +35,19 @@
 
 /* 메인 매장안내 */
 .mainPage > div .storeArea h2{padding-top: 90px; background: url('../images/common/logo_color.png') no-repeat center top / 70px; position: relative;}
-.mainPage > div .storeArea h2 span{display: block; width: 205px; background-color: white; margin: 0 auto;}
-.mainPage > div .storeArea h2 span::before{content: ''; position: absolute; left: 0; bottom: 22px; width: 100%; height: 1px; background-color: #e5e5e5; z-index: -1;}
-.mainPage > div .storeArea ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
-.mainPage > div .storeArea ul li{width: 24%; border-radius: 20px; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); overflow: hidden; position: relative;}
-.mainPage > div .storeArea ul li:not(:nth-child(-n + 4)){margin-top: 2%;}
-.mainPage > div .storeArea ul li .imgBox{height: 230px; background: url('../images/main/storeInfo.png') no-repeat center / cover; text-indent: -9999px;}
-.mainPage > div .storeArea ul li .textBox{padding: 30px;}
-.mainPage > div .storeArea ul li .textBox strong{display: block; font-size: 25px; font-weight: 500; margin-bottom: 10px;}
-.mainPage > div .storeArea ul li .textBox p{font-size: 16px; line-height: 25px;}
-.mainPage > div .storeArea ul li .floorsBox{padding: 15px 30px; font-size: 25px; border-top: 1px solid #e5e5e5;}
-.mainPage > div .storeArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #255650; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.5s opacity;}
-.mainPage > div .storeArea ul li a span{width: 65%; font-size: 20px; line-height: 55px; text-align: center; background-color: white; border-radius: 1000px; }
-.mainPage > div .storeArea ul li:hover a{opacity: 1;}
+.storeArea h2 span{display: block; width: 205px; background-color: white; margin: 0 auto;}
+.storeArea h2 span::before{content: ''; position: absolute; left: 0; bottom: 22px; width: 100%; height: 1px; background-color: #e5e5e5; z-index: -1;}
+.storeArea ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.storeArea ul li{width: 24%; border-radius: 20px; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); overflow: hidden; position: relative;}
+.storeArea ul li:not(:nth-child(-n + 4)){margin-top: 2%;}
+.storeArea ul li .imgBox{height: 230px; background: url('../images/main/storeInfo.png') no-repeat center / cover; text-indent: -9999px;}
+.storeArea ul li .textBox{padding: 30px;}
+.storeArea ul li .textBox strong{display: block; font-size: 25px; font-weight: 500; margin-bottom: 10px;}
+.storeArea ul li .textBox p{font-size: 16px; line-height: 25px;}
+.storeArea ul li .floorsBox{padding: 15px 30px; font-size: 25px; border-top: 1px solid #e5e5e5;}
+.storeArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #255650; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.5s opacity;}
+.storeArea ul li a span{width: 65%; font-size: 20px; line-height: 55px; text-align: center; background-color: white; border-radius: 1000px; }
+.storeArea ul li:hover a{opacity: 1;}
 
 /* 메인 공지사항 */
 .mainPage > div .noticeArea h2{position: relative;}
@@ -184,3 +184,9 @@
 .commercialArea .sliderArea .swiper-slide h3{font-size: 30px; margin-bottom: 30px;}
 .commercialArea .sliderArea .swiper-slide p{font-size: 20px; line-height: 25px;}
 .commercialArea .sliderArea .swiper-slide a{margin-top: auto; font-size: 18px; color: #e9dabc; text-align: center; width: 190px; line-height: 45px; border-radius:100em; background-color: #255650;}
+
+
+/* 프렌차이즈 */
+.franchiseArea .storeArea{margin-bottom: 100px;}
+.franchiseArea .storeArea ul{margin-bottom: 50px;}
+.franchiseArea .storeArea > a{display: block; width: 150px; line-height: 50px; font-size: 20px; color: white; text-align: center; margin: 0 auto; background-color: #255650;}

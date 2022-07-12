@@ -20,12 +20,14 @@ h2[title="hiddenTitle"]{height: 0.001px; overflow: hidden;}
 .subPage.introduceArea .topArea div{background-image: url('../images/introduce/introduceTop.png');}
 .subPage.experienceArea .topArea div{background-image: url('../images/experience/experienceTop.png');}
 .subPage.commercialArea .topArea div{background-image: url('../images/commercial/commercialTop.png');}
+.subPage.franchiseArea .topArea div{background-image: url('../images/franchise/franchiseTop.png');}
 
-.subPage .topArea .linkArea{display: flex; justify-content: center; border-bottom: 1px solid #e6e6e6;}
-.subPage .topArea .linkArea li{flex: 1; max-width: 600px;}
-.subPage .topArea .linkArea li a{display: block; font-size: 20px; line-height: 85px; color: #6f6f6f; text-align: center;}
-.subPage .topArea .linkArea li a{border-width:0 1px; border-style: solid; border-color: #e6e6e6; }
-.subPage .topArea .linkArea li.active a{color: #255650;}
+.subPage .topArea .pagerArea{display: flex; justify-content: center; border-bottom: 1px solid #e6e6e6; font-size: 20px; line-height: 85px; color: #6f6f6f; text-align: center;}
+.subPage .topArea .pagerArea li{flex: 1; max-width: 600px;}
+.subPage .topArea .pagerArea li a{display: block; }
+.subPage .topArea .pagerArea li a{border-width:0 1px; border-style: solid; border-color: #e6e6e6; }
+.subPage .topArea .pagerArea li.active a{color: #255650;}
+.subPage .topArea p.pagerArea{color: #255650;}
 
 
 /* 컨텐츠 타이틀 */
