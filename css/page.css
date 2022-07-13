@@ -187,16 +187,28 @@
 
 
 /* 프렌차이즈 */
-.franchiseArea .storeArea{margin-bottom: 100px;}
+.franchiseArea > div{margin-bottom: 100px;}
 .franchiseArea .storeArea ul{margin-bottom: 50px;}
 .franchiseArea .storeArea > a{display: block; margin: 0 auto;}
 
 
 /* 프렌차이즈 디테일*/
-.detailArea .imgBox{}
+.detailArea > div{margin-bottom: 100px;}
 .detailArea .imgBox img{width: 100%;}
-.detailArea figure{display: flex; align-items: flex-start;}
-.detailArea figure img{float: left;}
-.detailArea figure figcaption .simpleArea{display: flex; flex-direction: column; flex-wrap: wrap; justify-content: space-between; align-content: center; height: 60px;}
-.detailArea figure figcaption .simpleArea :is(h2 , p){height: 30px;}
-.detailArea figure figcaption .infoArea{clear: both;}
+.detailArea figure img{float: left; margin-right: 35px;}
+.detailArea figure figcaption > *:not(:last-child){margin-bottom: 50px;}
+.detailArea figure figcaption h3{font-size: 25px;}
+.detailArea figure figcaption .simpleArea{display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;  align-content: space-between; height: 60px;}
+.detailArea figure figcaption .simpleArea h2{height: 70%; font-size: 25px;}
+.detailArea figure figcaption .simpleArea a{font-size: 18px; color: #e9dabc; width: 155px; line-height: 45px; text-align: center; background-color: #255650; border-radius: 100em;}
+.detailArea figure figcaption .infoArea{clear: both; display: flex; flex-wrap: wrap;}
+.detailArea figure figcaption .infoArea h3{width: 100%;}
+.detailArea figure figcaption .infoArea dl{height: 110px; width: 50%; border-bottom: 1px solid #e5e5e5; display: flex; align-items: center;}
+.detailArea figure figcaption .infoArea dl dt{font-size: 20px; padding-left: 10px; position: relative;}
+.detailArea figure figcaption .infoArea dl dt::before{content: ''; position: absolute; left: 0; top: 0; height: 100%; width: 1px; background-color: black;}
+.detailArea figure figcaption .infoArea dl dd{font-size: 16px;}
+.detailArea figure figcaption .aboutArea h3{margin-bottom: 30px;}
+.detailArea figure figcaption .aboutArea p:nth-of-type(1){font-size: 20px; padding-left: 10px; position: relative; margin-bottom: 30px;}
+.detailArea figure figcaption .aboutArea p:nth-of-type(1)::before{content: ''; position: absolute; left: 0; top: 0; height: 100%; width: 1px; background-color: black;}
+.detailArea figure figcaption .aboutArea p:nth-of-type(2){padding-left: 10px; line-height: 20px;}
+.detailArea figure figcaption > a{display: block; margin: 0 auto;}
