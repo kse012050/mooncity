@@ -190,3 +190,13 @@
 .franchiseArea .storeArea{margin-bottom: 100px;}
 .franchiseArea .storeArea ul{margin-bottom: 50px;}
 .franchiseArea .storeArea > a{display: block; margin: 0 auto;}
+
+
+/* 프렌차이즈 디테일*/
+.detailArea .imgBox{}
+.detailArea .imgBox img{width: 100%;}
+.detailArea figure{display: flex; align-items: flex-start;}
+.detailArea figure img{float: left;}
+.detailArea figure figcaption .simpleArea{display: flex; flex-direction: column; flex-wrap: wrap; justify-content: space-between; align-content: center; height: 60px;}
+.detailArea figure figcaption .simpleArea :is(h2 , p){height: 30px;}
+.detailArea figure figcaption .infoArea{clear: both;}
