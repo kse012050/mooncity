@@ -212,3 +212,23 @@
 .detailArea figure figcaption .aboutArea p:nth-of-type(1)::before{content: ''; position: absolute; left: 0; top: 0; height: 100%; width: 1px; background-color: black;}
 .detailArea figure figcaption .aboutArea p:nth-of-type(2){padding-left: 10px; line-height: 20px;}
 .detailArea figure figcaption > a{display: block; margin: 0 auto;}
+
+
+.businessArea > div{margin-bottom: 100px;}
+.businessArea .steadyArea h2{padding-top: 125px; position: relative; margin-bottom: 50px;}
+.businessArea .steadyArea h2::before{content: ''; position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 1px; height: 80px; background-color: black;}
+.businessArea .steadyArea h2 b{display: block; font-size: 60px; font-weight: 400; margin-top: 20px;}
+.businessArea .steadyArea figure img{width: 100%; margin-bottom: 15px;}
+.businessArea .steadyArea figure figcaption{display: flex; justify-content: space-between;}
+.businessArea .steadyArea figure figcaption div h3{padding: 35px 0; font-size: 25px; border-bottom: 1px solid black; margin-bottom: 35px;}
+.businessArea .steadyArea figure figcaption div p{font-size: 16px; font-weight: 400; margin-bottom: 60px;}
+.businessArea .steadyArea figure figcaption div:first-of-type{width: 66.66%;}
+.businessArea .steadyArea figure figcaption div:first-of-type p{line-height: 21.5px;}
+.businessArea .steadyArea figure figcaption div:first-of-type ul{display: flex;}
+.businessArea .steadyArea figure figcaption div:first-of-type ul li{display: flex; align-items: flex-end; font-size: 16px; font-weight: 300;}
+.businessArea .steadyArea figure figcaption div:first-of-type ul li:not(:last-child){margin-right: 50px;}
+.businessArea .steadyArea figure figcaption div:first-of-type ul li::before{content: ''; width: 21px; height: 22px; background: url('../images/business/icon.png') no-repeat center / cover; margin-right: 15px;}
+.businessArea .steadyArea figure figcaption div:first-of-type ul li mark{font-weight: 500; color: #37645e; margin-right: 10px;}
+.businessArea .steadyArea figure figcaption div:nth-of-type(2){width: 31.66%;}
+.businessArea .steadyArea figure figcaption div:nth-of-type(2) p{margin-bottom: 50px;}
+.businessArea .steadyArea figure figcaption div:nth-of-type(2) p span{display: block; font-size: 20px; margin-bottom: 20px;}

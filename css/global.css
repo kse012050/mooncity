@@ -21,6 +21,7 @@ h2[title="hiddenTitle"]{height: 0.001px; overflow: hidden;}
 .subPage.experienceArea .topArea div{background-image: url('../images/experience/experienceTop.png');}
 .subPage.commercialArea .topArea div{background-image: url('../images/commercial/commercialTop.png');}
 .subPage:is(.franchiseArea , .detailArea) .topArea div{background-image: url('../images/franchise/franchiseTop.png');}
+.subPage.businessArea .topArea div{background-image: url('../images/business/businessTop.png');}
 
 .subPage .topArea .pagerArea{display: flex; justify-content: center; border-bottom: 1px solid #e6e6e6; font-size: 20px; line-height: 85px; color: #6f6f6f; text-align: center;}
 .subPage .topArea .pagerArea li{flex: 1; max-width: 600px;}
